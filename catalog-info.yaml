@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-spring-boot-app-k8s-teste22
+  title: sample-spring-boot-app-k8s-teste22
+  annotations:
+    github.com/project-slug: poc-backstage-sq/sample-spring-boot-app-k8s-teste22
+    backstage.io/kubernetes-id: sample-spring-boot-app-k8s-teste22
+  tags:
+    - spring-boot
+    - java
+    - maven
+    - github-actions
+    - renovate
+    #- sonarqube
+spec:
+  type: service
+  owner: sq
+  lifecycle: experimental
